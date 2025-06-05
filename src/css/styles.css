@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+}
+
+h1, h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    }
+
+h1 {
+    font-size: 40px;
+    color: #ef233cff;
+}
+
+h2 {
+    font-size: 25px;
+    color: #8d99aeff;
+}
+
+#banner {
+    background-color:  #d80032ff;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#2b2d42ff ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#imgDice {
+  border: 2px solid #8d99aeff;
+  transition: border-width 0.3s;
+  height: 175px;
+  width: 175px;
+}
+
+#imgDice:hover {
+    border-width: 8px;
+}
+
+#title {
+    color: #2b2d42ff;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#place{
+    width: 230px;
+}
+
+#language{
+    width: 230px;
+}
+
+.card-body, .card {
+    color: #2b2d42ff;
+    background-color: #edf2f4ff;;
+}
+
+.card legend{
+    color: #edf2f4ff;
+}
+
+
+#msg {
+    height: 100px; 
+    width: 1480px;
+    background-color: #FFFACD;
+    font-weight: bolder;     /* Makes text bold */
+    font-size: 50px;
+}
+
+.card img {
+    height: 160px;
+    width: 250px;
+    padding-top: 20px;
+}
+
+#startBtn {
+    color: #ef233cff;
+    background-color: #8d99aeff ;
+    padding: 0;
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    border-width: 8px;
+    border-style: solid;
+    border-color:#2b2d42ff ;
+    font-size: 2rem;    /* Makes text larger */
+    font-weight: bolder;     /* Makes text bold */
+}
+
+#playerName{
+    color:#2b2d42ff ;
+}
+
+#startBtn:hover {
+  background-color: #edf2f4ff;
+  color: #d80032ff;
+}
+
+#noOfLives, #maxScore, #score, #lives, #noOfPlayers {
+    width: 50px;
+}
+
+.hidden {
+    display: none;
+}

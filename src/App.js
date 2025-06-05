@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/styles.css';
+import Header from './components/Header';
+import InputParametersCard from './components/InputParametersCard';
+import Message from './components/Message';
+import PlayersList from './features/players/PlayersList';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Label} from 'reactstrap';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <>
+        <div id="banner">
+          <Header/>
+        </div>
+        <Message/>
+        <InputParametersCard/>
+        <Label id="title">Players</Label>
+        <PlayersList/>
+      </>
+    );
 }
 
 export default App;
